@@ -8,8 +8,11 @@ For headings, list 1-6 #'s (hashes) before your text, then a space after the has
 
 ## Styling:
 **Bold** Use ** before and after text, no spaces between hashes. 
+
 *Italic* Use * before and after text, no spaces between hashes. 
+
 ~~Strikethrough~~ Use ~~ before and after text, no spaces between hashes. 
+
 **Important _very_ important** Same as bold, but an underscore surrounding italicized text within bold formatting. 
 
 Unordered listing: 1 dash and a space before text
