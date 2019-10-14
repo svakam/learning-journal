@@ -5,5 +5,5 @@ Today I will learn:
 - Growth Mindset
 - Sandbox Learning
 
-definition of growth mindset:
-> growth mindset is great!
+My definition of growth mindset:
+> A growth mindset is having a mentality of positive progression and improvement of yourself
