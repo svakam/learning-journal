@@ -33,12 +33,12 @@ For task listing, add a dash, space, and a set of brackets with a space between.
 - [ ] Task list
 - [ ] Task listing
 
-Use a backtick surrounding a text that should be quoted within unquoted text
+Use a backtick surrounding a text that should be quoted within unquoted text. 
 
-This is a `quote`, so voila!
+- This is a `quote`, so voila!
 
-Use a greater-than sign and a space to add a separate line of quotation text
+Use a greater-than sign and a space to add a separate line of quotation text. 
 
-Quoting text: Steve Jobs once said, 
+- Quoting text: Steve Jobs once said, 
 
 > Stay hungry, stay foolish. 
