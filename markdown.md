@@ -41,4 +41,4 @@ Use a greater-than sign and a space to add a separate line of quotation text.
 
 - Quoting text: Steve Jobs once said, 
 
-> Stay hungry, stay foolish. 
+- > Stay hungry, stay foolish. 
