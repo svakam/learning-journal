@@ -8,6 +8,3 @@
    - Make sure to do this if you're stuck for too long! 
      - And if you're stuck, remember to take a break now and then. 
 3. Instead of saying "I won't learn this", remember to add a ***yet*** to the end of that sentiment. 
-
-GitHub link: 
-- https://github.com/svakam
