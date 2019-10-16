@@ -219,5 +219,5 @@ This chapter has to do with the evolution of HTML, adding code comments, global 
 
 #### Information about your pages
 - You'll want to make sure your webpage can be referenced; for example, searchable on Google. 
-- `<meta>` lives inside `<head>` and conatins information about the web page. It is not visible on the user's browser, but the opening tag contains attributes such as `meta name="description" content=""`, "robots", and "keywords". Others include author, prgama, and expires. 
+- `<meta>` lives inside `<head>` and conatins information about the web page. It is not visible on the user's browser, but the opening tag contains attributes such as `meta name="description" content=""`, `"robots"`, and `"keywords"`. Others include author, prgama, and expires. 
 

@@ -19,11 +19,23 @@ By utilizing a VCS (Version Control System), mistakes can be more efficiently co
 
 **What is Git?** Git is a DVCS that stores data in a file system made of snapshots. Each time version of a project is saved (**commit**), Git creates 'snapshot' of the file and stores a reference to it. Git relies on local operations because most info is found on local resources, which allows for faster processes and ability to work offline. Every change applied to a file/directory is tracked by Git, and file corruption/loss of info is tracked as well. Files in Git take on **committed**, **modified**, and **staged** states. 
 
+**Getting help:** 
+- 
+```
+git help command
+
+git command --help
+
+man git-command
+```
+
 ## Setting up a git repo
 
 You can import projects/directorys into Git using Terminal/Command Line. 
 
 You can create a copy of an existing Git repo from a server by using clone commands via repo's URL. 
+
+**Cloning:** Create copy of existing Git repo from particular server by using clone command with repo's URL: `git clone <URL>`
 
 ## Workflow
 
@@ -41,6 +53,25 @@ All files in progress of being worked on are in a tracked/untracked state. Track
 
 ### Tracking/staging a new file, committing a file, committing all changes, pushing changes, stashing changes
 
+**Tracking/staging a new file:** 
+- `git add filename`: tracks one file of your choosing
+- `git add *`: tracks all files in repo
+- After using these, files are tracked and staged for committing
+
+**Committing a file:**
+- `git commit -m "why"`: after staging, changes must be committed, and record what was done
+- Committed changes for the file/files to the HEAD
+- `git commit -a`: Commits snapshot of all modifications to tracked files in working dir
+
+**Pushing changes:**
+- `git push origin master`: pushes changes to remote repo
+- Pushed changes from local "master" branch to remote repository called "origin"
+
+**Stashing changes:**
+- `git stash`: when changes are not ready to be committed but they do not want to be lost either
+- `git stash apply`: when ready to work on changes, retrieves the hidden changes
+
+
 ## Remote repos
 
 In order to collaborate on Git projects, must be able to interact with remote repos (versions of a project online or on a network). It is possible to work with multiple repos (which may have read/write or read-only permissions). Teams may use remote repos to push/pull data to/from. 
@@ -48,6 +79,27 @@ In order to collaborate on Git projects, must be able to interact with remote re
 ## Undoing actions
 
 Git has mechanisms in place to undo actions made to a file (commit mistakes, unstaging a file, undo committed snapshot, unmodifying a file). 
+
+**Commit mistakes:**
+
+- `git commit --ammend`: when you need to alter a commit message or forgot to add files
+  - Example: 
+  ```
+  git commit -m "first commit"
+  git add example_file
+  git commit --ammend
+  ```
+
+**Unstaging a file:**
+- `git reset HEAD index.html`: unstages index.html
+
+**Undo committed snapshot:**
+- New commit gets appended and rolls back changes from a specific commmit. 
+```
+git commit -m "message"
+git revert HEAD
+```
+
 
 ## Branching
 

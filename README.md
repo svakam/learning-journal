@@ -8,6 +8,8 @@ Table of contents:
 - [Growth mindset](growth-mindset.md)
 - [Cheatsheet on Text Editor vs. Terminal](cheatsheet.md)
 - [Git vs. GitHub](git-github.md)
+- [HTML Intro](html.md)
+- [CSS Intro](cssintro.md)
 
 
 GitHub link: 
