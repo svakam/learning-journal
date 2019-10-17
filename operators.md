@@ -52,6 +52,7 @@ pgs. 170-173, 176
   - Initialization: `var i = 0;`
   - Condition: `i < 10;`
   - Update: `i++;`
+    - Same as `i = i + 1;` `i += 1;`. 
 
 - While loops: if it is unknown how many times a loop should run, code will run until condition is not met. 
   - `while (//condition) {code}`
