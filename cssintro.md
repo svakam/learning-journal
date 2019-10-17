@@ -82,17 +82,41 @@ How do we specify colors? What is color terminology? How to use contrast? How to
 #### Foreground color
 - **RGB values:** `rgb(<number 0-255>, <number 0-255>, <number 0-255>)`
 - **Hex codes:** 6-digit codes preceded by a pound sign `#xxxxxx`
-- **Color names:** CSS has pre-defined color names recognized by browsers
+- **Color names:** CSS has pre-defined color names recognized by browsers `DarkCyan`
 
 #### Background color
 - `background-color: <RGB value>` or `<hex>` or `<color name>`
+- Can set windows of any HTML element to have background colors (default color is white)
+- `body {backgorund-color: rgb(200,200,200);}`
+- `h1 {background-color: Darkcyan;}`
 
 #### Understanding color
+- Can use a color picker to decide what exact color is needed. 
+- Color of every pixel on the screen is expressed in terms of R, G, or B. 
+- RGB values `rgb(102,205,170)`
+- Hex codes `#66cdaa`
+- Color names `MediumAquaMarine`
+- Hue: near to the colloquial idea of color. 
+- Saturation: amount of gray in a color; at max saturation, no gray; at minimum saturation, color would be mostly gray. 
+- Brightness: how much black in a color; at max brightness, no black; at min brightness, color would be near or all black. 
 
 #### Contrast
+- When picking background/foreground colors, important to ensure there is enough contrast for text to be legible. 
+  - Low vs high vs medium contrast
 
 #### Opacity
-
-#### HSL Colors
+- Opacity: transparency of a color. 
+- Opacity holds value between 0.0 and 1.0. 
+  - 0.5 = 50% transparency, 0.75 = 75% transparency. 
+- `rgba` property allows color specification through rgb, but a is added for opacity. 
+- `background-color: rgb(0,0,0,0.5);`
+- Older browsers do not support this. Will only read rgb. 
 
 #### HSL & HSLA
+- `hsl` color property is an alternative way to specify colors. 
+- Hue expressed as an angle (0 - 360 degrees). 
+- Saturation expressed as a percentage. 
+- Lightness expressed as a percentage, with 0% being white, 100% black. 
+- Alpha (opacity)) expressed as a decimal 0.0-1.0. 
+- `background-color: hsla(0,100%,100%,0.5);`
+- Older browsers do not support this. Need to specify color using hex code, which goes before the rule that uses HSL value. 
