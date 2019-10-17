@@ -19,7 +19,7 @@ Once you know how to write a CSS _rule_, learning CSS just involves knowing the 
       - Declarations are made of a _property_ and a _value_ in that order, separated by a colon. 
         - Properties indicate the **aspects** of the element you want to change (color, font, width, height, border). 
         - Values are the specific settings desired for the properties (e.g. yellow, Arial, 360, 240, etc.)
-  - In this example, _p is the selector_, and _font-family: Arial_ is the declaration. 
+  - In this example, _p_ is the selector, and _font-family: Arial_ is the declaration. 
     - This indicates all `<p>` elements should be shown with Arial typeface. 
 - `h1, h2, h3 {font-family: Arial; color: yellow;}`
 
@@ -28,11 +28,11 @@ Once you know how to write a CSS _rule_, learning CSS just involves knowing the 
   - Used in .html file to tell browser where to find the CSS file. It is an _empty element_ (does not need a closing tag). 
   - Lives inside `<head>`. 
   - It should use 3 attributes:
-    - `<href>`
+    - `href`
       - Specifies path to CSS file, which is often placed in folder called `css/` or `styles/`. 
-    - `<type>`
+    - `type`
       - Specifies type of doc being linked to, whose value should be `text/css`. 
-    - `<rel>`
+    - `rel`
       - Specifies relationship between HTML and file it's linked to; value should be `stylesheet` because that's what the CSS is in relation to HTML. 
   - More than one CSS stylesheet can be used for an HTML page (ex. one CSS can control presentation, another can control layout). 
 - `<link href="css/styles.css" type = "text/css" rel="stylesheet" />`
