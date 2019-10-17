@@ -19,7 +19,7 @@ Once you know how to write a CSS _rule_, learning CSS just involves knowing the 
       - Declarations are made of a _property_ and a _value_ in that order, separated by a colon. 
         - Properties indicate the **aspects** of the element you want to change (color, font, width, height, border). 
         - Values are the specific settings desired for the properties (e.g. yellow, Arial, 360, 240, etc.)
-  - In this example, p is the selector, and font-family: Arial is the declaration. 
+  - In this example, _p is the selector_, and _font-family: Arial_ is the declaration. 
     - This indicates all `<p>` elements should be shown with Arial typeface. 
 - `h1, h2, h3 {font-family: Arial; color: yellow;}`
 
@@ -72,6 +72,27 @@ If 2+ rules apply to the same element:
   - Add `!important` after any property value to override precedence rules
 
 #### Inheritance
-
+- If a declaration (ex. font-family, color) is applied to an HTML element (ex. `<body>`), the declaration will apply to most child elements, and the declaration's value (ex. Verdana) will be _inherited_ by the children. 
+- Properties may be _forced_ to inherit values from parent elements by using `inherit` for the value of the peroperties (ex. `padding: inherit;`) 
 
 ## Chapter 11: Color
+
+How do we specify colors? What is color terminology? How to use contrast? How to apply background colors? 
+
+#### Foreground color
+- **RGB values:** `rgb(<number 0-255>, <number 0-255>, <number 0-255>)`
+- **Hex codes:** 6-digit codes preceded by a pound sign `#xxxxxx`
+- **Color names:** CSS has pre-defined color names recognized by browsers
+
+#### Background color
+- `background-color: <RGB value>` or `<hex>` or `<color name>`
+
+#### Understanding color
+
+#### Contrast
+
+#### Opacity
+
+#### HSL Colors
+
+#### HSL & HSLA
